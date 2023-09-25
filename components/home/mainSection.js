@@ -34,21 +34,21 @@ const MainSection = () => {
                     <View style={{flex: 1, flexDirection: 'row', alignItems: 'center'}}>
                         <View style={{flex: 1, flexDirection: 'row', alignItems: 'center'}}>
                             <Image source={roti} resizeMode='cover'/>
-                            <Text> * 2</Text>
+                            <Text> Bhakari * 2</Text>
                         </View>
                         <View style={{flex: 1, flexDirection: 'row', alignItems: 'center'}}>
                         <Image source={Thecha} resizeMode='cover'/>
-                            <Text> * 2</Text>
+                            <Text> Thecha * 2</Text>
                         </View>
                     </View>
                     <View style={{flex: 1, flexDirection: 'row', alignItems: 'center'}}>
                         <View style={{flex: 1, flexDirection: 'row', alignItems: 'center'}}>
-                            <Image source={Onion} resizeMode='cover'/>
-                            <Text> * 2</Text>
+                            <Image source={roti} resizeMode='cover'/>
+                            <Text> Onion * 2</Text>
                         </View>
                         <View style={{flex: 1, flexDirection: 'row', alignItems: 'center'}}>
-                        <Image source={roti} resizeMode='cover'/>
-                            <Text> * 2</Text>
+                        <Image source={Onion} resizeMode='cover'/>
+                            <Text> Pitla (For 1)</Text>
                         </View>
                     </View>
                 </View>

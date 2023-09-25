@@ -56,13 +56,12 @@ const Home = () => {
           style={{
             flex: 1,
             padding: SIZES.medium,
-            backgroundColor: COLORS.page
           }}
         >
           
           <MainSection/>
         </View>
-      </ScrollView>
+
           <View style={{width: '90%', marginBottom: 20, alignSelf: 'center', backgroundColor: '#FF6A00', height: 50, borderRadius: 25, alignItems: 'center', justifyContent: 'center'}}>
             <TouchableOpacity onPress={() => setModalVisible(!modalVisible)}>
               <Text style={{color: 'white', fontSize: 24}}>
@@ -70,7 +69,10 @@ const Home = () => {
               </Text>
             </TouchableOpacity>
           </View>
-          <OrderNowModal setModalVisible={setModalVisible} modalVisible={modalVisible} />
+      </ScrollView>
+      <View style={{display: `${modalVisible ? 'block' : 'none'}`}}>
+        <OrderNowModal setModalVisible={setModalVisible} modalVisible={modalVisible} />
+      </View>
     </SafeAreaView>
   )
 }
